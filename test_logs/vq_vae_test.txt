@@ -1,0 +1,112 @@
+Start training at Mon 21 Apr 13:01:06 BST 2025
+CUDA available: True
+GPU count: 1
+Available devices: 1
+Selected device name: Tesla T4
+Force no debugging when testing
+mean path /vol/bitbucket/ks1124/individual_project/CSL-Daily/csl_mean.pt std_path:  /vol/bitbucket/ks1124/individual_project/CSL-Daily/csl_std.pt
+Accelerator: cuda, Devices: 1
+test--loading csl annotations... 1176
+Data loading done. All: 1176, How2Sign: 0, CSL: 1176, Phoenix: 0
+how2sign_MPVPE_PA_all :  tensor([0.], device='cuda:0')
+how2sign_MPVPE_PA_hand :  tensor([0.], device='cuda:0')
+how2sign_MPVPE_PA_face :  tensor([0.], device='cuda:0')
+how2sign_MPJPE_PA_body :  tensor([0.], device='cuda:0')
+how2sign_MPJPE_PA_hand :  tensor([0.], device='cuda:0')
+how2sign_MPJPE_body :  tensor([0.], device='cuda:0')
+how2sign_MPJPE_hand :  tensor([0.], device='cuda:0')
+how2sign_MPVPE_all :  tensor([0.], device='cuda:0')
+how2sign_MPVPE_hand :  tensor([0.], device='cuda:0')
+how2sign_MPVPE_face :  tensor([0.], device='cuda:0')
+csl_MPVPE_PA_all :  tensor([31.6545], device='cuda:0')
+csl_MPVPE_PA_hand :  tensor([6.1307], device='cuda:0')
+csl_MPVPE_PA_face :  tensor([1.4979], device='cuda:0')
+csl_MPJPE_PA_body :  tensor([26.9354], device='cuda:0')
+csl_MPJPE_PA_hand :  tensor([6.3031], device='cuda:0')
+csl_MPJPE_body :  tensor([22.7783], device='cuda:0')
+csl_MPJPE_hand :  tensor([43.9655], device='cuda:0')
+csl_MPVPE_all :  tensor([31.6699], device='cuda:0')
+csl_MPVPE_hand :  tensor([42.5205], device='cuda:0')
+csl_MPVPE_face :  tensor([16.2934], device='cuda:0')
+phoenix_MPVPE_PA_all :  tensor([0.], device='cuda:0')
+phoenix_MPVPE_PA_hand :  tensor([0.], device='cuda:0')
+phoenix_MPVPE_PA_face :  tensor([0.], device='cuda:0')
+phoenix_MPJPE_PA_body :  tensor([0.], device='cuda:0')
+phoenix_MPJPE_PA_hand :  tensor([0.], device='cuda:0')
+phoenix_MPJPE_body :  tensor([0.], device='cuda:0')
+phoenix_MPJPE_hand :  tensor([0.], device='cuda:0')
+phoenix_MPVPE_all :  tensor([0.], device='cuda:0')
+phoenix_MPVPE_hand :  tensor([0.], device='cuda:0')
+phoenix_MPVPE_face :  tensor([0.], device='cuda:0')
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃          Test metric           ┃          DataLoader 0          ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│   Metrics/csl_MPJPE_PA_body    │       26.935365676879883       │
+│   Metrics/csl_MPJPE_PA_hand    │       6.303103446960449        │
+│     Metrics/csl_MPJPE_body     │       22.778303146362305       │
+│     Metrics/csl_MPJPE_hand     │        43.9654541015625        │
+│    Metrics/csl_MPVPE_PA_all    │       31.654529571533203       │
+│   Metrics/csl_MPVPE_PA_face    │       1.4979393482208252       │
+│   Metrics/csl_MPVPE_PA_hand    │       6.130729675292969        │
+│     Metrics/csl_MPVPE_all      │       31.669862747192383       │
+│     Metrics/csl_MPVPE_face     │       16.293365478515625       │
+│     Metrics/csl_MPVPE_hand     │       42.52051544189453        │
+│ Metrics/how2sign_MPJPE_PA_body │              0.0               │
+│ Metrics/how2sign_MPJPE_PA_hand │              0.0               │
+│  Metrics/how2sign_MPJPE_body   │              0.0               │
+│  Metrics/how2sign_MPJPE_hand   │              0.0               │
+│ Metrics/how2sign_MPVPE_PA_all  │              0.0               │
+│ Metrics/how2sign_MPVPE_PA_face │              0.0               │
+│ Metrics/how2sign_MPVPE_PA_hand │              0.0               │
+│   Metrics/how2sign_MPVPE_all   │              0.0               │
+│  Metrics/how2sign_MPVPE_face   │              0.0               │
+│  Metrics/how2sign_MPVPE_hand   │              0.0               │
+│ Metrics/phoenix_MPJPE_PA_body  │              0.0               │
+│ Metrics/phoenix_MPJPE_PA_hand  │              0.0               │
+│   Metrics/phoenix_MPJPE_body   │              0.0               │
+│   Metrics/phoenix_MPJPE_hand   │              0.0               │
+│  Metrics/phoenix_MPVPE_PA_all  │              0.0               │
+│ Metrics/phoenix_MPVPE_PA_face  │              0.0               │
+│ Metrics/phoenix_MPVPE_PA_hand  │              0.0               │
+│   Metrics/phoenix_MPVPE_all    │              0.0               │
+│   Metrics/phoenix_MPVPE_face   │              0.0               │
+│   Metrics/phoenix_MPVPE_hand   │              0.0               │
+└────────────────────────────────┴────────────────────────────────┘
+Testing ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74/74 0:03:05 • 0:00:00 0.48it/s
+                                  Mean Metrics
+                ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+                ┃ Metrics                             ┃ Value  ┃
+                ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+                │ Metrics/how2sign_MPVPE_PA_all/mean  │ 0.000  │
+                │ Metrics/how2sign_MPVPE_PA_hand/mean │ 0.000  │
+                │ Metrics/how2sign_MPVPE_PA_face/mean │ 0.000  │
+                │ Metrics/how2sign_MPJPE_PA_body/mean │ 0.000  │
+                │ Metrics/how2sign_MPJPE_PA_hand/mean │ 0.000  │
+                │ Metrics/how2sign_MPJPE_body/mean    │ 0.000  │
+                │ Metrics/how2sign_MPJPE_hand/mean    │ 0.000  │
+                │ Metrics/how2sign_MPVPE_all/mean     │ 0.000  │
+                │ Metrics/how2sign_MPVPE_hand/mean    │ 0.000  │
+                │ Metrics/how2sign_MPVPE_face/mean    │ 0.000  │
+                │ Metrics/csl_MPVPE_PA_all/mean       │ 31.655 │
+                │ Metrics/csl_MPVPE_PA_hand/mean      │ 6.131  │
+                │ Metrics/csl_MPVPE_PA_face/mean      │ 1.498  │
+                │ Metrics/csl_MPJPE_PA_body/mean      │ 26.935 │
+                │ Metrics/csl_MPJPE_PA_hand/mean      │ 6.303  │
+                │ Metrics/csl_MPJPE_body/mean         │ 22.778 │
+                │ Metrics/csl_MPJPE_hand/mean         │ 43.965 │
+                │ Metrics/csl_MPVPE_all/mean          │ 31.670 │
+                │ Metrics/csl_MPVPE_hand/mean         │ 42.521 │
+                │ Metrics/csl_MPVPE_face/mean         │ 16.293 │
+                │ Metrics/phoenix_MPVPE_PA_all/mean   │ 0.000  │
+                │ Metrics/phoenix_MPVPE_PA_hand/mean  │ 0.000  │
+                │ Metrics/phoenix_MPVPE_PA_face/mean  │ 0.000  │
+                │ Metrics/phoenix_MPJPE_PA_body/mean  │ 0.000  │
+                │ Metrics/phoenix_MPJPE_PA_hand/mean  │ 0.000  │
+                │ Metrics/phoenix_MPJPE_body/mean     │ 0.000  │
+                │ Metrics/phoenix_MPJPE_hand/mean     │ 0.000  │
+                │ Metrics/phoenix_MPVPE_all/mean      │ 0.000  │
+                │ Metrics/phoenix_MPVPE_hand/mean     │ 0.000  │
+                │ Metrics/phoenix_MPVPE_face/mean     │ 0.000  │
+                └─────────────────────────────────────┴────────┘
+Finished testing on ckpt:  /vol/bitbucket/ks1124/individual_project/SOKE_backup/experiments_1/mgpt/debug--VQVAE_CSL_ALL_ORIG_1GPU/checkpoints/min-csl_MPVPE_PA_allepoch=90.ckpt
+Finished training at Mon 21 Apr 13:05:04 BST 2025
