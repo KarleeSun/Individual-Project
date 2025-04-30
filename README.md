@@ -9,7 +9,7 @@
 - Completed the report on the experiments conducted and background sections
 
 ### Next Steps:
--[ ] Train RVQ SOKE on CSL-Daily
+- [ ] Train RVQ SOKE on CSL-Daily
    - RVQ: https://arxiv.org/pdf/2107.03312
    - Sample Config: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vq/hand2048_res5.yaml
    - [ ] Try different num_res and compare effectiveness
