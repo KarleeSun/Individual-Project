@@ -11,11 +11,13 @@
 ### Next Steps:
 - [ ] Train RVQ SOKE on CSL-Daily
    - RVQ: https://arxiv.org/pdf/2107.03312
-   - Sample Config: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vq/hand2048_res5.yaml
+   - Sample Config Inner: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vq/hand2048_res5.yaml
+   - Sample Config Outer: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vae_csl_1024_512_res5.yaml
    - [ ] Try different num_res and compare effectiveness
    - [ ] Add results to the report 
 - [ ] Experiment Rot6D
   - Rot6d: https://arxiv.org/pdf/1812.07035
+  - Sample Config: https://github.com/2000ZRL/SOKE_backup/blob/5d4e13690e9896fd052cdba7d2a1da856d8895a5/configs/vae_csl_rot6d_2048_2048_res5_tf_d1.yaml#L49
   - [ ] Add description in 3D Representation section in the report
   - [ ] Experiment and compare performance
   - [ ] Add results to the report
