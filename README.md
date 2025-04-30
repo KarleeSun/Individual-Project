@@ -11,7 +11,7 @@
 ### Next Steps:
 - [ ] Train RVQ SOKE on CSL-Daily
    - RVQ: https://arxiv.org/pdf/2107.03312
-   - Sample Config Inner: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vq/hand2048_res5.yaml
+   - Sample Config Inner: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vq/hand2048_res5.yaml, https://github.com/2000ZRL/SOKE_backup/blob/5d4e13690e9896fd052cdba7d2a1da856d8895a5/configs/vq/hand2048_res5.yaml#L6
    - Sample Config Outer: https://github.com/2000ZRL/SOKE_backup/blob/main/configs/vae_csl_1024_512_res5.yaml
    - [ ] Try different num_res and compare effectiveness
    - [ ] Add results to the report 
@@ -22,6 +22,7 @@
   - [ ] Experiment and compare performance
   - [ ] Add results to the report
 - [ ] Experiment with encoder-decoder architecture
+  - Sample Config: https://github.com/2000ZRL/SOKE_backup/blob/5d4e13690e9896fd052cdba7d2a1da856d8895a5/configs/vq/re2048_res5_tf_d1_rot6d.yaml#L3
   - [ ] Change CNN to transformer
   - [ ] Add results to the report 
 ### Further reading
